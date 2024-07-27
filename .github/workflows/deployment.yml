@@ -4,12 +4,12 @@ name: python CI/CD Pipeline Checks & Apply
 on:
   push:
     branches:
-      - dev
+      - main
       - feature/*
       - bugfix/*
   pull_request:
     branches:
-      - dev
+      - main
       - feature/*
       - bugfix/*
 
