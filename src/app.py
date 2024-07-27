@@ -13,8 +13,11 @@ prices = {
 
 special_offers = {
     'Apples': (0.10, '10% off'),
-    'Soup_Bread': (0.40, 'Buy 2 tins of soup and get a loaf of bread for half price')
+    'Soup_Bread': (0.40,
+                   'Buy 2 tins of soup and get a loaf of bread for half price'
+                   )
 }
+
 
 def calculate_discount(item_counts):
     discount = 0
@@ -31,6 +34,7 @@ def calculate_discount(item_counts):
         print(f'Apples {special_offers["Apples"][1]}: £{discount:.2f}')
 
     return discount
+
 
 def price_basket(basket):
     item_counts = {}
@@ -52,6 +56,7 @@ def price_basket(basket):
         discount = calculate_discount(item_counts)
         total_price = subtotal - discount
         print(f'Total price: £{total_price:.2f}')
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
