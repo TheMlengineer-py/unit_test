@@ -1,4 +1,4 @@
-#------------ci-cd pipeline starts here----------#
+#------------deployment pipeline starts here----------#
 name: python CI/CD Pipeline Checks & Apply
 
 on:

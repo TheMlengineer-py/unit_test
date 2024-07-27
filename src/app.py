@@ -1,3 +1,6 @@
+"""
+app config starts here#
+"""
 import sys
 
 # Define the prices and special offers

@@ -14,13 +14,4 @@ repos:
         files: 'template/cloudformation.yml'
 
 
-#  - repo: https://github.com/psf/black  ##todo  surpresed as this is not the piority
-#    rev: 19.10b0  # Use the latest stable version
-#    hooks:
-#      - id: black
-#        language_version: python3.8  # Ensure this matches your environment
 
-#  - repo: https://github.com/pycqa/flake8 ##todo surpresed as this is not the piority
-#    rev: '3.8.4'  # Use the latest stable version
-#    hooks:
-#      - id: flake8

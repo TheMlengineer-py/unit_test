@@ -1,4 +1,3 @@
-# unit_test
 # Adthena Data Engineer Technical Assignment
 Project: Shopping Basket Pricing
 Overview
