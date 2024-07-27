@@ -20,12 +20,7 @@ class TestPriceBasket(unittest.TestCase):
 
     def test_price_basket(self):
         basket = ['Soup', 'Bread', 'Milk', 'Apples']  # Updated basket list
-        expected_output = (
-            "Subtotal: £4.40\n"
-            "Soup_Bread Buy 2 tins of soup and get a loaf of bread for half price: £0.40\n"
-            "Apples 10% off: £0.10\n"
-            "Total price: £3.90\n"
-        )
+        expected_output = "Subtotal: £3.75\nSoup_Bread Buy 2 tins of soup and get a loaf of bread for half price: £0.00\nApples 10% off: £0.10\nTotal price: £3.65\n"
 
         with patch('sys.argv', ['app.py'] + basket):
             with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
