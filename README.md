@@ -12,8 +12,6 @@ The program will be driven by unit tests and will provide a command-line interfa
 
 ## Language: Python 
 
-## Duration: Estimated 4 to 6 hours, submit within 1 week
-
 ## Review Focus: Code structure, domain modeling, unit tests
 
 ## Documentation: Clear instructions on how to install and run the code locally
